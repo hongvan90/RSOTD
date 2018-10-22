@@ -559,7 +559,7 @@ if __name__ is "__main__":
                         help="Output in JSON format")
     OP.add_option("-p", "--py", dest="py",
                         action="store_true",
-                        help="Output as a formatted Python code representation")
+                        help="Output as formatted Python code representation")
     OP.add_option("-t", "--text", dest="text",
                         action="store_true",
                         help="Output as plain, unformatted text")
